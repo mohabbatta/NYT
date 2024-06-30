@@ -1,16 +1,18 @@
-# new_york_times
-
+# NYTimes
 A News app
+News app consumes the New York Times (NYT) API to display a list of articles.
 
-## Getting Started
+Build by 
 
-This project is a starting point for a Flutter application.
+- Flutter
+- Network: Dio, Retrofit
+- State management: Bloc
+- Folder Structure: Feature-based
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- The network layer for the application focuses on
+    - Error handling and exception management.
+    - Request interception.
+    - Caching.
+    - Token management
+    - Secure and obfuscation API keys
+ 
